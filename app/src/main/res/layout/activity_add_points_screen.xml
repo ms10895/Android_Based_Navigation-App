@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".addPointsScreen">
+
+    <LinearLayout android:orientation="vertical"
+        android:paddingLeft="23dp"
+        android:paddingRight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:paddingTop="20dp"
+
+
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add locations"/>
+
+        <EditText
+            android:id="@+id/centreLocationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_roundcorner"
+
+            android:hint="Where are you standing?"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textColorHighlight="#fff"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/northLocationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_roundcorner"
+            android:hint="What is on your North?"
+            android:padding="10dp"
+
+            android:textColor="@android:color/black"
+            android:textColorHighlight="#fff"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/southLocationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_roundcorner"
+            android:hint="What is on your South?"
+            android:padding="10dp"
+
+            android:textColor="@android:color/black"
+            android:textColorHighlight="#fff"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/eastLocationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_roundcorner"
+            android:hint="What is on your East?"
+
+            android:padding="10dp"
+
+            android:textColor="@android:color/black"
+            android:textColorHighlight="#fff"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/westLocationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_roundcorner"
+            android:hint="What is on your West?"
+            android:padding="10dp"
+
+            android:textColor="@android:color/black"
+            android:textColorHighlight="#fff"
+            android:textSize="16sp" />
+        <Button android:textColor="#fff"
+            android:layout_gravity="center"
+            android:id="@+id/addPointsBtn"
+            android:background="@drawable/side_nav_bar"
+            android:paddingTop="5dp"
+
+            android:paddingBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="add"/>
+        <TextView android:textColor="#f44336"
+            android:id="@+id/validationText"
+            android:paddingTop="15dp"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="please fill all info before adding"/>
+
+
+
+        <ImageView android:id="@+id/imageViewCompass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/compass"/>
+    </LinearLayout>
+</ScrollView>

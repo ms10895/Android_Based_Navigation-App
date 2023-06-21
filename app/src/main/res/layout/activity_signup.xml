@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E0E0"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".SignupActivity">
+
+    <ImageView
+        android:id="@+id/imh"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/appicon" />
+
+
+    <EditText
+        android:id="@+id/email"
+
+        style="@style/editTextStyle"
+        android:layout_marginTop="25dp"
+
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+
+        />
+
+    <EditText
+        android:id="@+id/password"
+
+        style="@style/editTextStyle"
+
+
+        android:focusableInTouchMode="true"
+        android:hint="Password"
+        android:imeActionId="@+id/login"
+        android:imeOptions="actionUnspecified"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        tools:ignore="InvalidImeActionId" />
+
+
+    <Button
+        android:id="@+id/sign_up_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/side_nav_bar"
+        android:text="CREATE ACCOUNT"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

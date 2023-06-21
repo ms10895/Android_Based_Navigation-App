@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "706405830261",
+    "firebase_url": "https://locationhelper-41e53.firebaseio.com",
+    "project_id": "locationhelper-41e53",
+    "storage_bucket": "locationhelper-41e53.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706405830261:android:a75bd62df575f8d7",
+        "android_client_info": {
+          "package_name": "com.khalid.locationhelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706405830261-54dj75dmta7dg3u3feiaal14ri2hs7jv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLJpfk1rqCM31x-UdTGe_4aLrMQPwRVwM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

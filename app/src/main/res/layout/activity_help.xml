@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Help">
+
+    <TextView
+        android:id="@+id/textContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_top"
+        android:layout_margin="4dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="casual"
+        android:gravity="fill"
+        android:includeFontPadding="true"
+        android:padding="10dp"
+        android:requiresFadingEdge="horizontal"
+
+        android:text=""
+
+        android:textAlignment="gravity"
+        android:textColor="#000"
+        android:textIsSelectable="true"
+        android:textSize="20dp" />
+
+
+</LinearLayout>
